@@ -27,14 +27,14 @@
 ##############################################################################################
 # Start of default section
 #
-CCPREFIX	= arm-none-eabi-
-CC   		= $(CCPREFIX)gcc
-CP   		= $(CCPREFIX)objcopy
-AS   		= $(CCPREFIX)gcc -x assembler-with-cpp
-GDBTUI		= $(CCPREFIX)gdbtui
-HEX  		= $(CP) -O ihex
-BIN  		= $(CP) -O binary -S
-MCU  		= cortex-m3
+CCPREFIX   = arm-none-eabi-
+CC         = $(CCPREFIX)gcc
+CP         = $(CCPREFIX)objcopy
+AS         = $(CCPREFIX)gcc -x assembler-with-cpp
+GDBTUI     = $(CCPREFIX)gdbtui
+HEX        = $(CP) -O ihex
+BIN        = $(CP) -O binary -S
+MCU        = cortex-m3
  
 # List all C defines here
 DDEFS =
@@ -43,11 +43,11 @@ DDEFS =
 OPT = -Os
 
 # Define project name and Ram/Flash mode here
-PROJECT        = stm32f1_template
+PROJECT	= stm32f1_template
 
 # Source directories
-LINKERSCRIPT 		= ./linkerscript/stm32_flash.ld
-APP_INC_DIR			= ./app/inc
+LINKERSCRIPT	= ./linkerscript/stm32_flash.ld
+APP_INC_DIR	= ./app/inc
 
 # APPLICATION SPECIFIC
 SRC  = ./app/src/main.c
@@ -63,7 +63,7 @@ include makefile_std_lib.mk # STM32 Standard Peripheral Library
 INCDIR  = $(patsubst %,-I%, $(INCDIRS))
 
 ## run from Flash
-DEFS    = $(DDEFS) -DRUN_FROM_FLASH=1
+DEFS	= $(DDEFS) -DRUN_FROM_FLASH=1
 
 OBJS  	= $(ASM_SRC:.s=.o) $(SRC:.c=.o)
 

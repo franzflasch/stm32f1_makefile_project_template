@@ -1,9 +1,10 @@
-ARM GAS  /tmp/ccw8F8H1.s 			page 1
+ARM GAS  /tmp/ccSgeheO.s 			page 1
 
 
    1              	# 1 "CMSIS/CM3/DeviceSupport/ST/STM32F10x/startup/gcc_ride7/startup_stm32f10x_md_vl.s"
    1              	/**
    1              	...
+   0              	
    0              	
    2              	  ******************************************************************************
    3              	  * @file      startup_stm32f10x_md_vl.s
@@ -57,10 +58,10 @@ ARM GAS  /tmp/ccw8F8H1.s 			page 1
   51              	
   52              	.equ  BootRAM, 0xF108F85F
   53              	/**
+ARM GAS  /tmp/ccSgeheO.s 			page 2
+
+
   54              	 * @brief  This is the code that gets called when the processor first
-ARM GAS  /tmp/ccw8F8H1.s 			page 2
-
-
   55              	 *          starts execution following a reset event. Only the absolutely
   56              	 *          necessary set is performed, after which the application
   57              	 *          supplied main() routine is called. 
@@ -117,10 +118,10 @@ ARM GAS  /tmp/ccw8F8H1.s 			page 1
  108              	  .section  .text.Default_Handler,"ax",%progbits
  109              	Default_Handler:
  110              	Infinite_Loop:
+ARM GAS  /tmp/ccSgeheO.s 			page 3
+
+
  111 0000 FFF7FEBF 	  b  Infinite_Loop
-ARM GAS  /tmp/ccw8F8H1.s 			page 3
-
-
  112              	  .size  Default_Handler, .-Default_Handler
  113              	/******************************************************************************
  114              	*
@@ -177,10 +178,10 @@ ARM GAS  /tmp/ccw8F8H1.s 			page 1
  165 00a0 00000000 	  .word  TIM1_BRK_TIM15_IRQHandler
  166 00a4 00000000 	  .word  TIM1_UP_TIM16_IRQHandler
  167 00a8 00000000 	  .word  TIM1_TRG_COM_TIM17_IRQHandler
+ARM GAS  /tmp/ccSgeheO.s 			page 4
+
+
  168 00ac 00000000 	  .word  TIM1_CC_IRQHandler
-ARM GAS  /tmp/ccw8F8H1.s 			page 4
-
-
  169 00b0 00000000 	  .word  TIM2_IRQHandler
  170 00b4 00000000 	  .word  TIM3_IRQHandler
  171 00b8 00000000 	  .word  TIM4_IRQHandler
@@ -237,10 +238,10 @@ ARM GAS  /tmp/ccw8F8H1.s 			page 1
  222 0184 00000000 	  .word  0
  223 0188 00000000 	  .word  0
  224 018c 00000000 	  .word  0
+ARM GAS  /tmp/ccSgeheO.s 			page 5
+
+
  225 0190 00000000 	  .word  0
-ARM GAS  /tmp/ccw8F8H1.s 			page 5
-
-
  226 0194 00000000 	  .word  0
  227 0198 00000000 	  .word  0
  228 019c 00000000 	  .word  0
@@ -297,10 +298,10 @@ ARM GAS  /tmp/ccw8F8H1.s 			page 1
  279              	  .weak  PVD_IRQHandler
  280              	  .thumb_set PVD_IRQHandler,Default_Handler
  281              	
+ARM GAS  /tmp/ccSgeheO.s 			page 6
+
+
  282              	  .weak  TAMPER_IRQHandler
-ARM GAS  /tmp/ccw8F8H1.s 			page 6
-
-
  283              	  .thumb_set TAMPER_IRQHandler,Default_Handler
  284              	
  285              	  .weak  RTC_IRQHandler
@@ -357,10 +358,10 @@ ARM GAS  /tmp/ccw8F8H1.s 			page 1
  336              	  .weak  TIM1_BRK_TIM15_IRQHandler
  337              	  .thumb_set TIM1_BRK_TIM15_IRQHandler,Default_Handler
  338              	
+ARM GAS  /tmp/ccSgeheO.s 			page 7
+
+
  339              	  .weak  TIM1_UP_TIM16_IRQHandler
-ARM GAS  /tmp/ccw8F8H1.s 			page 7
-
-
  340              	  .thumb_set TIM1_UP_TIM16_IRQHandler,Default_Handler
  341              	
  342              	  .weak  TIM1_TRG_COM_TIM17_IRQHandler
@@ -417,12 +418,12 @@ ARM GAS  /tmp/ccw8F8H1.s 			page 1
  393              	  .weak  TIM6_DAC_IRQHandler
  394              	  .thumb_set TIM6_DAC_IRQHandler,Default_Handler
  395              	
+ARM GAS  /tmp/ccSgeheO.s 			page 8
+
+
  396              	  .weak  TIM7_IRQHandler
-ARM GAS  /tmp/ccw8F8H1.s 			page 8
-
-
  397              	  .thumb_set TIM7_IRQHandler,Default_Handler  
-ARM GAS  /tmp/ccw8F8H1.s 			page 9
+ARM GAS  /tmp/ccSgeheO.s 			page 9
 
 
 DEFINED SYMBOLS
@@ -482,7 +483,7 @@ CMSIS/CM3/DeviceSupport/ST/STM32F10x/startup/gcc_ride7/startup_stm32f10x_md_vl.s
 CMSIS/CM3/DeviceSupport/ST/STM32F10x/startup/gcc_ride7/startup_stm32f10x_md_vl.s:109    .text.Default_Handler:00000000 USART1_IRQHandler
 CMSIS/CM3/DeviceSupport/ST/STM32F10x/startup/gcc_ride7/startup_stm32f10x_md_vl.s:109    .text.Default_Handler:00000000 USART2_IRQHandler
 CMSIS/CM3/DeviceSupport/ST/STM32F10x/startup/gcc_ride7/startup_stm32f10x_md_vl.s:109    .text.Default_Handler:00000000 USART3_IRQHandler
-ARM GAS  /tmp/ccw8F8H1.s 			page 10
+ARM GAS  /tmp/ccSgeheO.s 			page 10
 
 
 CMSIS/CM3/DeviceSupport/ST/STM32F10x/startup/gcc_ride7/startup_stm32f10x_md_vl.s:109    .text.Default_Handler:00000000 EXTI15_10_IRQHandler

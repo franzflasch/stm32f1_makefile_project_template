@@ -16,7 +16,7 @@
 #
 # To rebuild project do "make clean" and "make all".
 #
-# This makefile offers the possibility to build STM32F4 projects without any IDE.
+# This makefile offers the possibility to build STM32 projects without any IDE.
 # Since the latest release of the GNU ARM Plugin for the eclipse IDE is a crap it gives back the
 # possibilty to define own project directory structures.
 #
